@@ -24,7 +24,7 @@ weight_decay: 0.0001
 logdir: logs
 
 # Number of epochs to train for
-num_epochs: 200
+num_epochs: 1
 
 # Number of examples per epoch
 epoch_size: 50000
