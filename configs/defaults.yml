@@ -100,10 +100,10 @@ map_extents: [-25., 1., 25., 50.]
 map_resolution: 0.25
 
 # Log loss to tensorboard every N iterations
-log_interval: 10
+log_interval: 1
 
 # Visualise predictions every N iterations
-vis_interval: 200
+vis_interval: 1
 
 
 ### Model options ###
