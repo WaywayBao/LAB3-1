@@ -55,7 +55,7 @@ class DenseTransformer(nn.Module):
         
         # Compute upper and lower bounds of visible region
         focal_length, img_offset = calib[1, 1:]
-        vmid = self.ymid * focal_length / self.zmin + img_offset
+        vmid =  /*TODO*/ + img_offset
         vmin = math.floor(vmid - self.in_height / 2)
         vmax = math.floor(vmid + self.in_height / 2)
 
